@@ -1,6 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+import 'firebase_options.dart';
+
+Future<void> main() async {
+  // initialize flutter before calling fb
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // initialize the Fb connection
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+
+  //start application
   runApp(const MyApp());
 }
 
