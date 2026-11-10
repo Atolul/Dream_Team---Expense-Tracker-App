@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "352512574005",
+    "project_id": "dream-team-d81d5",
+    "storage_bucket": "dream-team-d81d5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352512574005:android:89cec10c9facd63a91277c",
+        "android_client_info": {
+          "package_name": "com.example.expense_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwwZJxjFQht7o4l4rG8CsKAAfvnL5i7v4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
