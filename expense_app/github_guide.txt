@@ -1,0 +1,30 @@
+Before you commit, go to expense_app directory in the terminal:
+
+"cd expense_app"
+
+then run:
+
+"flutter clean"
+
+to removes generated build artifacts.
+
+-----------------------------------------------------------
+
+After you pull Github repo locally, run:
+
+"flutter pub get"
+
+to reinstalls project dependencies.
+
+-----------------------------------------------------------
+
+Notes: 
+- Making sure to fetch/pull before you make changes and fetch/pull before you push.
+
+- Push and pull for every changes you made (as often as possible), to make 
+it easier to integrate your work, minimize conflicts and backup your code. 
+
+- Finally pull request to merge changes into main branch after you complete a 
+small chunk of changes.
+
+Every commit/push you make is revertable so don't sweat over it.
