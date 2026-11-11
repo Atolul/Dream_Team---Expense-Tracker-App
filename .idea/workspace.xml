@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="549e2110-e4c8-4e28-bae3-f8de66c4f2bb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/expense_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/expense_app/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense_app/test/widget_test.dart" beforeDir="false" />
-    </list>
+    <list default="true" id="549e2110-e4c8-4e28-bae3-f8de66c4f2bb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +48,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/firebase-integration",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/pgmcb/StudioProjects/Dream_Team---Expense-Tracker-App",
     "settings.editor.selected.configurable": "dart.settings",
