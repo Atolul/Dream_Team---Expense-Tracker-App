@@ -80,6 +80,8 @@ class _SignupPageState extends State<SignupPage> {
         password: password,
       );
 
+      if (!mounted) return;
+
       await showDialog<void>(
         context: context,
         barrierDismissible: false,

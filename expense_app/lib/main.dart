@@ -1,18 +1,20 @@
+
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 import 'firebase_options.dart';
 import 'screens/login_page.dart';
+import 'auth_service.dart';
+import 'main_navigation.dart';
 
 Future<void> main() async {
-  // initialize flutter before calling fb
   WidgetsFlutterBinding.ensureInitialized();
 
-  // initialize the Fb connection
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 
-  //start application
   runApp(const ExpenseTrackerApp());
 }
 
@@ -25,10 +27,12 @@ class ExpenseTrackerApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Expense Tracker',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.teal,
+        ),
         useMaterial3: true,
       ),
-      home: const LoginPage(),
+      home: const AuthGate(),
     );
   }
 }
