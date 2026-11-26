@@ -1,0 +1,8 @@
+.dart_tool/
+.flutter_plugins
+.flutter-pluggins-dependencies
+.packages
+.pub-cache/
+build/
+ios/Flutter/flutter_export_environment*
+.flutter-plugins-dependencies*
